@@ -32,7 +32,7 @@ ListNode* Solution::reverseBetween(ListNode* A, int B, int C) {
     ListNode* head = curr;
     ListNode* first;
     ListNode* last;
-    
+
     if(!curr || !curr->next)
         return A;
     
